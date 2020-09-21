@@ -67,7 +67,7 @@ def send_email(email_recipient, email_subject, email_message, attachment_file = 
 
         text = msg.as_string()
 
-        server.sendmail(email_address, email_recipient, text)
+        server.sendmail(email_address, email_recipient.split(','), text)
 
         server.quit()
 
