@@ -23,3 +23,31 @@ print(list2)
 myList = [10, 8, 6, 4, 2]
 newList = myList[1:3]
 print(newList)
+
+########################
+myList = [10, 8, 6, 4, 2]
+newList = myList[1:-1]
+print(newList)
+
+
+########################
+myList = [10, 8, 6, 4, 2]
+newList = myList[-1:1]
+print(newList)
+
+
+########################
+myList = [10, 8, 6, 4, 2]
+newList = myList[:1]
+print(newList)
+
+########################
+myList = [10, 8, 6, 4, 2]
+newList = myList[0:1]
+print(newList)
+
+########################
+myList = [10, 8, 6, 4, 2]
+newList = myList[3:]
+print(newList)
+
